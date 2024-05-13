@@ -45,8 +45,8 @@ def video_gemini_analysis(data):
     """
        Args:
         data: Pub/Sub message data
-    file_data = data
     """
+    file_data = data
 
     file_name = file_data["name"]
     bucket_name = file_data["bucket"]
